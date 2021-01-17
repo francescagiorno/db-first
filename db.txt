@@ -1,0 +1,19 @@
+<!-- db -->
+
+
+
+nome_database: car_db
+ID: number /int
+nome_auto: string/varchar(50)
+marca_auto: string/varchar(50)
+generazione: string/varchar(50)
+serie: string/varchar(50)
+chilometraggio: numero/int
+usata? : si-no/ bit
+pronta_consegna?: si-no/ bit
+anno: numero/ year
+max_speed: number/ smallint
+cambio: string/ varchar(50)
+cilindrata: number/ smallint
+acceleration: number/ decimal(4,2)
+prezzo: numero/ decimal(10,2)
